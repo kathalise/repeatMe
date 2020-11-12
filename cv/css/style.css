@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    font-size: 5em;
+    margin: 50px auto 0 auto;
+    font-family: "Reenie Beanie", cursive;
+    color: #30475e;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #f05454;
+}
+h3 {
+    color: #34626c;
+}
+p {
+    font-family: "Rubik", sans-serif;
+    /* font-family: "DM Serif Display", serif; */
+}
+a {
+    color: #34626c;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    /* text-decoration: underline; */
+    font-weight: bolder;
+}
+
+hr {
+    border-top: 4px dotted #30475e27;
+    width: 100px;
+}
+
+.top-container {
+    background-color: #9ba4b4;
+    padding-top: 100px;
+
+    line-height: normal;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+/* .top-cloud:hover {
+    height: 100px;
+    opacity: 50%;
+} */
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.top-container h2 {
+    font-size: 2rem;
+    color: #e8e8e8;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.profile {
+    padding-top: 50px;
+    margin: 0 auto 50px auto;
+    width: 50%;
+}
+
+.interests {
+    height: 150px;
+    margin-right: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.laptop {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.interests-ski {
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.middle-container {
+    background-color: #e8e8e8;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.bottom-container {
+    padding-top: 20px;
+    background-color: #f05454;
+    height: 15vh;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #e8e8e8;
+}
